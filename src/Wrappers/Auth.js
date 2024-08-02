@@ -11,7 +11,9 @@ export const AuthView = styled(LinearGradient).attrs({
   end: { x: 1, y: 0 },
 })`
   flex: 1;
-  align-items: center;
+
+  /* align-items: center; */
+  padding: 0 25px;
 `;
 export const TextHeader = styled.Text`
   color: ${Colors.primary800};
@@ -20,9 +22,10 @@ export const TextHeader = styled.Text`
   margin-top: 15%;
   margin-bottom: 0;
   padding: 0;
+  text-align: center;
 `;
 export const SubText = styled.Text`
   color: ${Colors.grey};
-  font-size: 18px;
+  font-size: 16px;
   text-align: center;
 `;
